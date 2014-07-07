@@ -1,0 +1,45 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CloudFuze Developer API Login</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+<!-- basic validation of a login form -->
+<form class="form" style=" height:165px;">
+
+    <div class="form-group">
+        <label>Email address</label>
+        <input type="email" class="form-control" id="txt-email" name="txt-email" placeholder="Enter email" required>
+
+        <label>Password</label>
+        <input type="password" class="form-control" id="txt-password" name="txt-password" placeholder="Password" required>
+    </div>
+    <button type="submit" id="btnsmt" class="btn btn-primary" style="height: 28px" >Submit</button>
+</form>
+
+</script>
+</body>
+</html>
+
+
+
+style.css
+--------------------
+form.form{
+    margin:10px 0px 0px 10px;
+    background:#EEEEEE;
+    padding:15px;
+    max-width: 300px !important;
+    min-width: 300px !important;
+    width: 300px !important;
+    border: 1px solid #CCCCCC;
+    float:left;
+    height:175px;
+}
