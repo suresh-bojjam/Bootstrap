@@ -1,4 +1,4 @@
 Bootstrap Example
 ====
 
-login page with bootstrap
+login page with bootstrap example
